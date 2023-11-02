@@ -1,4 +1,16 @@
-# Frequently Asked Questions
+Frequently Asked Questions
+==========================
+
+## What is an official UUP dump website address?
+UUP dump officially operates under the https://uupdump.net address.
+
+There are many copies which are hosted without our knowledge nor authorization. These use a modified and outdated version of our code which may cause incorrect downloads. In addition, due to the way UUP dump is structured, it is extremely easy for these websites to inject malware in a non-obvious way.
+
+
+## Where is the source code of the website?
+The source code of the website has been made private due to the above concerns, as we do not wish to be liable for any damages caused by copies of UUP dump not hosted by us.
+
+While the website code itself is no longer open source, many parts out of which it is made are.
 
 
 ## Which build do I choose?
@@ -13,6 +25,7 @@ Most builds will be available as one of the following:
 If you want to create an updated image or you're not sure, choose the **Feature Update**.
 
 So: _Cumulative Updates generally aren't very useful, avoid them._
+
 
 ## How do I choose Enterprise/Education or other editions?
 Select their **base edition** first.
@@ -41,6 +54,12 @@ Those entries **cannot** be made into Windows images. Their files can sometimes 
 If you see this on a regular build of Windows or Windows Server, that means it's metadata ESD is unavailable.
 
 
+## "This update has known issues preventing the creation of a working ISO."?
+This means the chosen entry contains some data, **but not all**, required to create a properly working Windows image.
+
+While it would possible to build ISO image out of this entry, the Windows installation made out of it would be unusable.
+
+
 ## Debloat?
 No. Don't.
 
@@ -49,3 +68,17 @@ No. Don't.
 Most often that the build was pushed to more than one channel.
 
 Alternatively this could be a build of a different release type that was mistaken for a duplicate.
+
+
+## Help! My Windows copy is missing "Windows Security" app or "Settings" app does not open.
+This applies only to Windows 11, version 22H2 and later.
+
+A cause of this is a failed conversion process or a conversion done on an unsupported platform. You'll need to redo the process and reinstall Windows to fix this.
+
+Alternatively if you don't want to reinstall or can't, you may try one of the following steps.
+
+### Fix not working "Settings" app or a missing "Microsoft Store" app
+Open the Command Prompt as an administrator and type `wsreset -i`. The issue should be fixed in a few minutes.
+
+### Fix missing "Windows Security"
+Go to the UUP dump page for the build you installed and using the **Browse files** section search for `SecHealthUI`. Download and install that `appx` package to fix the issue.
