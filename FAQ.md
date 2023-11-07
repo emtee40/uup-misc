@@ -13,13 +13,19 @@ The source code of the website has been made private due to the above concerns, 
 While the website code itself is no longer open source, many parts out of which it is made are.
 
 
+## I want to retrieve some data from UUP dump in an automatic manner
+For this purpose we host an official instance of the [UUP dump JSON API](https://git.uupdump.net/uup-dump/json-api). You can access it at https://api.uupdump.net.
+
+For instruction how to use it, please refer to the documentation found in the repository.
+
+
 ## Which build do I choose?
 This is a question only **you** can answer.
 
 
 ## Which build entry do I choose?
 Most builds will be available as one of the following:
- * Cumulative Update (AKA „***Update** to [...]*”)
+ * Cumulative Update (AKA „***Update** for [...]*”)
  * Feature Update (AKA „***Upgrade** to [...]*” or no special name at all)
 
 If you want to create an updated image or you're not sure, choose the **Feature Update**.
