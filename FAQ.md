@@ -76,6 +76,22 @@ Most often that the build was pushed to more than one channel.
 Alternatively this could be a build of a different release type that was mistaken for a duplicate.
 
 
+## I received an ISO with a different version than one selected on the website
+There are multiple causes of this:
+ * You have unchecked the `Include updates` option on the download page
+ * The conversion process has failed to include the updates
+ * The conversion was done using Linux/macOS scripts, which do not support installing updates
+
+To fix this issue you'll need to redo the conversion process and make sure that:
+ * The "Include updates" option on the download page is checked
+ * The conversion process did not report any errors
+ * The conversion was done on Windows, preferably a modern version
+
+Including updates is crucial to receive a version selected on the website due to the way UUP sets are provided by Microsoft.
+
+An UUP set consists of the base build (typically .1 for releases, .1000 for previews), and updates for it, which bring it up to the desired version. That means, if you fail to include these updates, you'll receive a base build, not the one you selected.
+
+
 ## Help! My Windows copy is missing "Windows Security" app or "Settings" app does not open.
 This applies only to Windows 11, version 22H2 and later.
 
