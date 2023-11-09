@@ -83,7 +83,7 @@ There are multiple causes of this:
  * The conversion was done using Linux/macOS scripts, which do not support installing updates
 
 To fix this issue you'll need to redo the conversion process and make sure that:
- * The "Include updates" option on the download page is checked
+ * The `Include updates` option on the download page is checked
  * The conversion process did not report any errors
  * The conversion was done on Windows, preferably a modern version
 
