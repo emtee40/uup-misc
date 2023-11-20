@@ -1,5 +1,4 @@
-Containment zone
-================
+misc
+====
 
-This repository is a containment zone for the proprietary UUP converter.
-Consider using GNU/Linux (or as I've recently taken to calling it, GNU+Linux).
+This repository contains miscellaneous files used by the website.
