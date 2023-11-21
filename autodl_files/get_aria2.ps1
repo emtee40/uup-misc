@@ -7,7 +7,7 @@ try {
 
 $file = 'aria2c.exe'
 $url = 'https://uupdump.net/misc/aria2c.exe';
-$hash = '0ae98794b3523634b0af362d6f8c04a9bbd32aeda959b72ca0e7fc24e84d2a66';
+$hash = 'b9cd71b275af11b63c33457b0f43f2f2675937070c563e195f223efd7fa4c74b';
 
 function Test-Existece {
     param (
