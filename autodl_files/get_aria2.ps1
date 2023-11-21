@@ -9,7 +9,7 @@ $file = 'aria2c.exe'
 $url = 'https://uupdump.net/misc/aria2c.exe';
 $hash = 'b9cd71b275af11b63c33457b0f43f2f2675937070c563e195f223efd7fa4c74b';
 
-function Test-Existece {
+function Test-Existence {
     param (
         [String]$File
     )
@@ -39,7 +39,7 @@ function Test-Hash {
     return ($fileHash.ToLower() -eq $Hash)
 }
 
-if((Test-Existece -File $file) -and (Test-Hash -File $file -Hash $hash)) {
+if((Test-Existence -File $file) -and (Test-Hash -File $file -Hash $hash)) {
     Write-Host -BackgroundColor Black -ForegroundColor Green "Ready."
     Exit 0
 }
