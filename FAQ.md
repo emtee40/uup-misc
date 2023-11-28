@@ -4,7 +4,7 @@ Frequently Asked Questions
 ## What is the official UUP dump website address?
 UUP dump officially operates under the https://uupdump.net address.
 
-There are many copies which are hosted without our knowledge nor authorization. These use a modified and outdated version of our code which may cause incorrect downloads. In addition, due to the way UUP dump is structured, it is extremely easy for these websites to inject malware in a non-obvious way.
+**We do not have any "trusted mirror".** All the unofficial sites are hosted without our knowledge nor authorization. These make use of a heavily modified version of our old code and may cause incorrect downloads. In addition, due to the way UUP dump is structured, it is extremely easy for these websites to inject malware in a non-obvious way.
 
 
 ## Where is the source code of the website?
