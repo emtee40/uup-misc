@@ -48,7 +48,7 @@ Select their **base edition** first.
 You can select the **virtual editions** after you choose to **add additional editions** (third **Download method**).
 
 
-## "There are no languages available for this build."?
+## "This build can't be converted to an ISO image."?
 This means the chosen entry is **not** a complete build of Windows.
 
 It's probably one of the following:
@@ -60,7 +60,7 @@ Those entries **cannot** be made into Windows images. Their files can sometimes 
 If you see this on a regular build of Windows or Windows Server, that means it's metadata ESD is unavailable.
 
 
-## "This update has known issues preventing the creation of a working ISO."?
+## "This build has known issues preventing the creation of a working ISO."?
 This means the chosen entry contains some data, **but not all**, required to create a properly working Windows image.
 
 While it would possible to build ISO image out of this entry, the Windows installation made out of it would be unusable.
